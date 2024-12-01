@@ -1,0 +1,54 @@
+/* Styles for your page content */
+
+#page-content {
+    display: none;
+    /* Initially hidden */
+}
+
+/* Popup styles */
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center the popup */
+    width: 50%;
+    /* Adjust width as needed */
+    max-width: 600px;
+    /* Set a maximum width */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background */
+    display: block;
+    /* Initially shown */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Optional: Add a subtle shadow */
+}
+
+.popup-content {
+    text-align: center;
+    /* Center text within the popup */
+}
+
+.view-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin: 0 auto;
+    /* Center the button horizontally */
+    display: block;
+    /* Ensure button takes up full width */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.view-btn:hover {
+    background-color: #444;
+}
